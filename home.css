@@ -1,0 +1,17 @@
+body {
+    background-image: url("./joel-muniz-XqXJJhK-c08-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+   }
+
+
+
+#verse-container {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: salmon;
+  }
+  
