@@ -21,7 +21,7 @@ fetch('random.json')
     displayRandomVerse();
 
     // Set a timer to update the displayed verse every 8 seconds
-    setInterval(displayRandomVerse, 8000);
+    setInterval(displayRandomVerse, 10000);
   })
 
 

@@ -2,16 +2,58 @@ body {
     background-image: url("./joel-muniz-XqXJJhK-c08-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
+
     
    }
 
 
 
-#verse-container {
-    font-size: 24px;
-    text-align: center;
-    margin-top: 50px;
-    background-color: salmon;
-  }
+   #verse-container
+{
+   font-size: 24px;
+   /*width: 50%;
+   */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-top: 50px;
+   background-color: salmon;
+   width: 540px;
+   height: 200px;
+   opacity: 0.8;
+   border-radius:20px ;
+   color: rgb(19, 19, 119);
+   font-weight: bold;
+   text-align: center;
+   margin-left: 410px;
+   margin-top: 140px;
+   font-size: 20px;
+}
+#read-btn{
+   margin-left: 560px;
+   padding: 20px;
+   background-color: rgb(75, 75, 230);
+   color: white !important;
+   font-size: 20px;
+   margin-top: 10px;
+   border: none;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+#read-btn:hover{
+   cursor: pointer;
+   background-color: rgb(20, 16, 16) !important;
+   color: black;
+}
+marquee{ 
+   color: white;
+   font-size: 40px !important;
+   font-weight: bold;
+   background: linear-gradient(to bottom right, #FF512F, #DD2476, #5E239D, #1CB5E0, #01E8F1);
+
+}
   

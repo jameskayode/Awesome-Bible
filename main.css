@@ -1,0 +1,150 @@
+body {
+    padding: 0px;
+    background-image: url("./a1.jpg");
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   }
+
+   /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+section {
+    
+    padding: 20px;
+}
+   #old,#new{
+    font-size: 25px;
+    display: none;
+   }
+   #old.active,
+   #new.active{
+    display: block;
+   }
+
+   #old-testament,#new-testament{
+   padding: 15px;
+   background-color:#230101;
+   color: white;
+   display: block;
+   margin:  auto;
+   margin-top: 4  0px;
+   border-radius:10px ;
+  
+}
+#old-testament:hover,
+#new-testament:hover{
+background-color: gray;
+cursor: pointer;
+}
+a {
+  color: #0898f2;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #230101;
+  /* border: 2px solid #000000; */
+  border-radius: 20px;
+  padding: 2px;
+  margin: 10px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.text{
+  padding: 20px;
+}
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  }
+  
+  li {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: rgb(2, 2, 2);
+    flex-basis: 20%;
+    color: white;
+  }
+    
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+  }
+
+  /* Style the modal content */
+  .modal-content {
+    background-color: #0b0909;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+
+  .reference {
+    padding: 10px;
+  }
+
+
+   /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  }
+
+
+
+   

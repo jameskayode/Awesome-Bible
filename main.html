@@ -5,19 +5,126 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bible main page</title>
-    <link rel="stylesheet" href="./main/main.css">
+    <link rel="stylesheet" href="./main.css">
 
 </head>
 <body>
+  <header>
+    <h1>Bible App</h1>
+    <nav>
+      <ul>
+        <li><a href="#oldTest">Old Testament</a></li>
+        <li><a href="#newTest">New Testament</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+<div class="bible-books">
+
+  
+<section id="oldTest">
+<button id="old-testament" onclick="sortList(document.querySelectorAll('ul')[1])">Old Testament</button>
+<div id="old">
+     <ul id="book-link" class="modal-trigger" data-modal-target="modal-1">
+      
+        <li><a href="#genesis" >Genesis</a></li>
+        <li><a href="#exodus">Exodus</a></li>
+        <li><a href="#leviticus">Leviticus</a></li>
+        <li><a href="#numbers">Numbers</a></li>
+        <li><a href="#deuteronomy">Deuteronomy</a></li>
+        <li><a href="#joshua">Joshua</a></li>
+        <li><a href="#judges">Judges</a></li>
+        <li><a href="#ruth">Ruth</a></li>
+        <li><a href="#1samuel">1 Samuel</a></li>
+        <li><a href="#2samuel">2 Samuel</a></li>
+        <li><a href="#1kings">1 Kings</a></li>
+        <li><a href="#2kings">2 Kings</a></li>
+        <li><a href="#1chronicles">1 Chronicles</a></li>
+        <li><a href="#2chronicles">2 Chronicles</a></li>
+        <li><a href="#ezra">Ezra</a></li>
+        <li><a href="#nehemiah">Nehemiah</a></li>
+        <li><a href="#esther">Esther</a></li>
+        <li><a href="#job">Job</a></li>
+        <li><a href="#psalms">Psalms</a></li>
+        <li><a href="#proverbs">Proverbs</a></li>
+        <li><a href="#ecclesiastes">Ecclesiastes</a></li>
+        <li><a href="#songofsolomon">Song of Solomon</a></li>
+        <li><a href="#isaiah">Isaiah</a></li>
+        <li><a href="#jeremiah">Jeremiah</a></li>
+        <li><a href="#lamentations">Lamentations</a></li>
+        <li><a href="#ezekiel">Ezekiel</a></li>
+        <li><a href="#daniel">Daniel</a></li>
+        <li><a href="#hosea">Hosea</a></li>
+        <li><a href="#joel">Joel</a></li>
+        <li><a href="#amos">Amos</a></li>
+        <li><a href="#obadiah">Obadiah</a></li>
+        <li><a href="#jonah">Jonah</a></li>
+        <li><a href="#micah">Micah</a></li>
+        <li><a href="#nahum">Nahum</a></li>
+        <li><a href="#habakkuk">Habakkuk</a></li>
+        <li><a href="#zephaniah">Zephaniah</a></li>
+        <li><a href="#haggai">Haggai</a></li>
+        <li><a href="#zechariah">Zechariah</a></li>
+        <li><a href="#malachi">Malachi</a></li>
+      
+      </ul>  
+</div>
+</section>
 
 
-<button>Old Testament</button>
+<section id="newTest">
+<button id="new-testament" onclick="sortList(document.querySelectorAll('ul')[2])"> New Testament </button>
+<div id="new">
+    <ul id="book-link" class="modal-trigger" data-modal-target="modal-1">
+      <li><a href="#matthew">Matthew</a></li>
+      <li><a href="#mark">Mark</a></li>
+      <li><a href="#luke">Luke</a></li>
+      <li><a href="#john">John</a></li>
+      <li><a href="#acts">Acts</a></li>
+      <li><a href="#romans">Romans</a></li>
+      <li><a href="#1corinthians">1 Corinthians</a></li>
+      <li><a href="#2corinthians">2 Corinthians</a></li>
+      <li><a href="#galatians">Galatians</a></li>
+      <li><a href="#ephesians">Ephesians</a></li>
+      <li><a href="#philippians">Philippians</a></li>
+      <li><a href="#colossians">Colossians</a></li>
+      <li><a href="#1thessalonians">1 Thessalonians</a></li>
+      <li><a href="#2thessalonians">2 Thessalonians</a></li>
+      <li><a href="#1timothy">1 Timothy</a></li>
+      <li><a href="#2timothy">2 Timothy</a></li>
+      <li><a href="#titus">Titus</a></li>
+      <li><a href="#philemon">Philemon</a></li>
+      <li><a href="#hebrews">Hebrews</a></li>
+      <li><a href="#james">James</a></li>
+      <li><a href="#1peter">1 Peter</a></li>
+      <li><a href="#2peter">2 Peter</a></li>
+      <li><a href="#1john">1 John</a></li>
+      <li><a href="#2john">2 John</a></li>
+      <li><a href="#3john">3 John</a></li>
+      <li><a href="#jude">Jude</a></li>
+      <li><a href="#revelation">Revelation</a></li>
+    
+      </ul>
+      
+    </div>
+  </section>
+</div>
+<div id="modal-1" class="modal">
+  <div class="modal-content">
+      <div id="chapters-container"></div>
+      <div id="verses-container"></div>
+      <button class="modal-close">Close</button>
+		</div>
+	</div>
 
-<button>New Testament</button>
-<ul id="chapters-container"> </ul>
+  <footer>
+    <marquee>&copy; 2023 Bible App Designed by JJK</marquee>
+  </footer>
 
 
 
-    <script src="./main/main.js"></script>
+
+
+    <script src="./main.js"></script>
 </body>
 </html>
