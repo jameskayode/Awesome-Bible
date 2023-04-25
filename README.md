@@ -8,6 +8,8 @@
 * this is done by adding an event listener to the button with the ID "read-btn". in Which when this button is clicked, the code will redirect the user to a page named "main.html".
 
 
-* At the main page, i will have a styled UL tags which will house the new old testament and another with new testament which will also each have LI tags container the books (Genesis, Exodus) which will be arranged alphabetically
+* At the main page, i have both old and new testament at the the top navbar which is simply used by using section Id.. the page also have a styled UL tags which will house the new old testament and another with new testament which will also each have LI tags container the books (Genesis, Exodus) which will be arranged alphabetically which can can be accessed by toggling between both the old and new testament buttons on the page.
+* first the toggling is achieved by adding a click event listener to the buttons and when one of the the two buttons is clicked it toggles by simply using the "active" class attribute which has been set to display block in the css file.
+* 
 * the LI buttons will have an action button which when clicked on displays the chapters which will be 10 each..
 * when a chapter is clicked on it takes us a new page containing 20 verses which will be fetched from a local JSON file. 
