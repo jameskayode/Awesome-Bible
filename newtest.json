@@ -1,0 +1,32 @@
+{
+    "new_testament": [
+      { "book": "Matthew", "href": "#matthew" },
+      { "book": "Mark", "href": "#mark" },
+      { "book": "Luke", "href": "#luke" },
+      { "book": "John", "href": "#john" },
+      { "book": "Acts", "href": "#acts" },
+      { "book": "Romans", "href": "#romans" },
+      { "book": "1 Corinthians", "href": "#1corinthians" },
+      { "book": "2 Corinthians", "href": "#2corinthians" },
+      { "book": "Galatians", "href": "#galatians" },
+      { "book": "Ephesians", "href": "#ephesians" },
+      { "book": "Philippians", "href": "#philippians" },
+      { "book": "Colossians", "href": "#colossians" },
+      { "book": "1 Thessalonians", "href": "#1thessalonians" },
+      { "book": "2 Thessalonians", "href": "#2thessalonians" },
+      { "book": "1 Timothy", "href": "#1timothy" },
+      { "book": "2 Timothy", "href": "#2timothy" },
+      { "book": "Titus", "href": "#titus" },
+      { "book": "Philemon", "href": "#philemon" },
+      { "book": "Hebrews", "href": "#hebrews" },
+      { "book": "James", "href": "#james" },
+      { "book": "1 Peter", "href": "#1peter" },
+      { "book": "2 Peter", "href": "#2peter" },
+      { "book": "1 John", "href": "#1john" },
+      { "book": "2 John", "href": "#2john" },
+      { "book": "3 John", "href": "#3john" },
+      { "book": "Jude", "href": "#jude" },
+      { "book": "Revelation", "href": "#revelation" }
+    ]
+  }
+  

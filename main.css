@@ -131,7 +131,10 @@ a {
   .reference {
     padding: 10px;
   }
-
+.modal-close:hover{
+  cursor: pointer;
+  
+}
 
    /* Footer styles */
   footer {
