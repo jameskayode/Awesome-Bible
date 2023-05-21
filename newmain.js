@@ -56,7 +56,8 @@ fetch('newVersion.json')
 
 // Function to display verses for a selected chapter
 function displayVerses(chapter) {
-  fetch('newVersion.json')
+  // fetch newVersion.json file
+	fetch('newVersion.json')
     .then(response => response.json())
     .then(data => {
       const verseList = document.createElement('ul');
